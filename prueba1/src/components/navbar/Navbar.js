@@ -15,12 +15,12 @@ export const Navbar = () => {
                     <a class="e1" href="#">MOTOS </a>
                     <a class="e1" href="#">BICICLETAS </a>
  
-                    <a class="e1" href='#'> <CartWidget /></a>
 
 
                 </nav>
    
- 
+                <CartWidget />
+
  
 
             </div>
