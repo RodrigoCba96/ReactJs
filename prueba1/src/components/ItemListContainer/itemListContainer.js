@@ -57,7 +57,8 @@ const ItemListContainer = ({ greeting }) => {
     return (
       <header>
         <div >
-          <h2 className="item">ItemListContainer</h2>
+          <h2 className="item">Bienvenido</h2>
+          <h3>Te presentamos algunos de nuestros productos</h3>
           {greeting}
   
           {productos.map((el) => (
