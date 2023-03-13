@@ -21,7 +21,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ver más
+              Conocenos
             </NavLink>
           </div>
         </div>} />
