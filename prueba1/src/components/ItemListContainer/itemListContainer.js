@@ -1,5 +1,6 @@
 import './itemListContainer.scss';
 import { useState, useEffect } from 'react';
+import {useParams} from 'react-router-dom';
 
 const BUILD_DATA = [
   {
@@ -35,7 +36,8 @@ const BUILD_DATA = [
 
 const ItemListContainer = ({ greeting }) => {
     const [productos, setProductos] = useState([]);
-  
+    const params=useParams()
+    console.log(params)
     useEffect(() => {
       const solicitarDatos = async () => {
         return await new Promise(resolve => {
